@@ -12,8 +12,46 @@
 <body>
     <h1 id = "title">Survey Form</h1>
     <p id = "description">This is a survey form for FreCodeCamp usage</p>
-    <input id = "survey-form" type="text">
-    <input type="text">
+    <form id = "survey-form" action="">
+            <label for="">  
+                    <input type="radio" name ="Javascript">Javascript
+                  </label> 
+                  <label for="">
+                    <input type="radio" name ="Python">Python
+                  </label>
+                  <br>
+                  <label for="">  
+                        <input name="the hopr" value =
+                        type="checkbox" name ="Javascript">Biginner
+                      </label> 
+                      <label for="">
+                        <input type="checkbox" name ="Python">Intermediate
+                      </label>
+                      <br>
+
+        <label id ="name-label" for="name">
+    <input id = "name" placeholder="name" type="text">
+</label>
+
+    <label id ="email-label" for="email">
+    <input id="email" placeholder="email" type="text" required>
+</label>
+
+    <label id = "number-label" for="number">
+    <input id="number" placeholder="1-4" type="number" min="1" max ="4" required>
+</label>
+
+<select id="dropdown" name="level" placeholder ="level">
+        <option value="hard"></option>
+        <option value="not hard">not hard</option>
+        <option value="easy">easy</option>
+        <option value="very easy">very easy</option>
+      </select>
+            
+              
+        
+
+</form>
     
 
 
