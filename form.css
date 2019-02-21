@@ -3,15 +3,19 @@
 }
 
 #description{
+    
 
 }
 
 #survey-form{
-    border: solid green 0;
+    border: solid rgba(2, 233, 2, 0.801) 1px;
+    max-width:400px;
+    background-color: rgba(206, 143, 143, 0.363);
 
 }
 
 #name{
+    
 
 }
 
