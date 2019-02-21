@@ -14,10 +14,10 @@
     <p id = "description">This is a survey form for FreCodeCamp usage</p>
     <form id = "survey-form" action="">
             <label for="">  
-                    <input type="radio" name ="Javascript">Javascript
+                    <input value="js" type="radio" name ="Javascript">Javascript
                   </label> 
                   <label for="">
-                    <input type="radio" name ="Python">Python
+                    <input value="Pi" type="radio" name ="Python">Python
                   </label>
                   <br>
                   <label for="">  
@@ -29,15 +29,15 @@
                       </label>
                       <br>
 
-        <label id ="name-label" for="name">
-    <input id = "name" placeholder="name" type="text">
+        <label id ="name-label" for="name">Name
+    <input id = "name" placeholder="name" type="text" required>
 </label>
-
-    <label id ="email-label" for="email">
+<br>
+    <label id ="email-label" for="email">Email
     <input id="email" placeholder="email" type="text" required>
 </label>
-
-    <label id = "number-label" for="number">
+<br>
+    <label id = "number-label" for="number">Number
     <input id="number" placeholder="1-4" type="number" min="1" max ="4" required>
 </label>
 
