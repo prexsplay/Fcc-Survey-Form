@@ -51,22 +51,20 @@
       <input value="Pi" type="radio" name ="Python">Python
     </label>
 <br>
-      <label for="beginner">  
-            <input name="hope" value ="Beginner"
-            type="checkbox" name ="Javascript">Beginner
-          </label> 
-          <label for="Intermediate" name="hope" value ="Intermediate">
-            <input type="checkbox" name ="Python">Intermediate
-          </label>
+     
 
-          <label for="">  
-            <input name="hope" value ="Beginner"
-            type="checkbox" name ="Javascript">Beginner
-          </label> 
-          <label for="">
-            <input type="checkbox"  name="hope" value ="Intermediate">Intermediate
-          </label>
-
+<div class="rowTab">
+  <div class="labels">
+    <label for="preferences">What is your favourite language? <br>(select all that apply):</label>
+  </div>
+      <ul id="preferences" style="list-style: none;">
+        <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Javascript</input></label></li>
+        <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Python</input></label></li>
+        <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Java</input></label></li>
+        <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">C++</input></label></li>
+        <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Typescript</input></label></li>
+      </ul>
+</div>
 
       <br> 
       <label>For any additional questions feel free to leave a comment:</label>
